@@ -1,0 +1,84 @@
+<% include partials/header %>
+
+<div class="background-image" style="background-image: url(public/images/foodCover2.jpg); ">Photo by Lily Banse on
+  Unsplash</div>
+<!-- <div>Icons made by 
+      <a href="https://www.flaticon.com/authors/freepik" 
+        title="Chef">Chef</a> from 
+        <a href="https://www.flaticon.com/"     
+        title="Flaticon">www.flaticon.com</a> is licensed by 
+        <a href="http://creativecommons.org/licenses/by/3.0/"     
+        title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+
+<div class="ui icon message">
+  <i class="notched circle loading icon"></i>
+  <div class="content">
+    <div class="header">
+      Just one second
+    </div>
+    <p>We're fetching that content for you.</p>
+  </div>
+</div>
+<div class="ui negative message">
+  <i class="close icon"></i>
+  <div class="header">
+    We're sorry there appears to be a problem, please try again later by refreshing your page!
+  </div>
+</div>
+<div class="center-screen">
+  <div class="detail">
+    <p class="intro">
+      <strong>recipes4charity aims to raise money for various charities, allowing people to do what they love (cook for
+        loved ones) yet still contribute to a charity of their choice. <br> We have as many as 360,000 recipes on our
+        site.</strong>
+    </p>
+    <button class="positive ui button" id="enterBtn"><i class="icon user"></i>I get it!</button>
+  </div>
+</div>
+
+<div class="ui link cards">
+
+</div>
+
+<div class="ui segment" id="indiviualRecipe">
+  <i class="close icon" id="returnToMenu"></i>
+  <div id="topRecipe">
+    <img class="ui centered large image" src="" id="recipeImage">
+    <h2 id="recipeTitle"></h2>
+    <h4 id="recipeServes"></h4>
+  </div>
+  <div class="ui segment">
+    <div class="ui two column very relaxed grid">
+      <div class="column" id="ingredients">
+        <h4>Ingredients</h4>
+        <ul id="ingredient"></ul>
+      </div>
+      <div class="column" id="instructions">
+        <h4>Instructions</h4>
+        <ul id="instruction"></ul>
+      </div>
+    </div>
+    <div class="ui vertical divider">
+      <!-- and -->
+    </div>
+  </div>
+</div>
+
+<!-- <div class="ui center aligned basic segment">
+        <div class="image">
+            <img src="">
+        </div>
+      <div class="ui left icon action input">
+        <i class="search icon"></i>
+        <input type="text" placeholder="Order #">
+        <div class="ui blue submit button">Search</div>
+      </div>
+      <div class="ui horizontal divider">
+        Or
+      </div>
+      <div class="ui teal labeled icon button">
+        Create New Order
+        <i class="add icon"></i>
+      </div>
+    </div> -->
+<% include partials/footer %>

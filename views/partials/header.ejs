@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+  
+  <script src="../public/js/main.js"></script>
+  <script src="../public/js/header.js"></script>
+  <script src="../public/js/recipeFunctions.js"></script>
+  <script src="../public/js/menuFunctions.js"></script>
+
+  <link rel="stylesheet" href="../public/styles/home.css">
+  <title>YumYum</title>
+</head>
+
+<body>
+
+  <div class="ui stackable menu">
+    <div class="item">
+      <img src="../public/images/chef.png">
+    </div>
+    <div class="header item">
+      recipes4charity
+    </div>
+    <a class="item disabled" id="whatWeDo">What we do & why</a>
+    <!-- <a class="item">Testimonials</a> -->
+    <a class="item disabled" id="charities">Charities</a>
+
+    <div class="ui dropdown item disabled" id="countryCode">
+      <!-- <i class="ae flag"></i> -->
+      Country
+      <i class="dropdown icon"></i>
+      <div class="menu">
+        <a class="item"><i class="globe icon"></i> Change</a>
+      </div>
+    </div>
+    <div class="ui dropdown item disabled" id="advanced">
+      Advanced
+      <i class="dropdown icon"></i>
+      <div class="menu">
+        <a class="item"><i class="edit icon"></i> Search Criteria</a>
+        <a class="item"><i class="settings icon"></i> Account Settings</a>
+      </div>
+    </div>
+    <div class="item right">
+      <div class="ui icon input" id="searchIngredient">
+        <input type="text" placeholder="Search by ingredients..." id="searchBox" disabled>
+        <i class="search link icon" id="searchByIngredients"></i>
+      </div>
+    </div>
+
+    <a class="item disabled" id="signIn">Sign-in</a>
+    <a class="item disabled" id="register">Register</a>
+    <a class="item disabled" id="contact">Contact</a>
+  </div>
